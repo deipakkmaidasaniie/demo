@@ -8,6 +8,8 @@
    <link rel="stylesheet" href="css/utilities.css">
    <link rel="stylesheet" href="css/footer.css">
    <link rel="stylesheet" href="css/mystyles.css">
+   <link rel="stylesheet" href="css/menu_mobile.css">
+
 
 
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"   integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
@@ -145,6 +147,14 @@
          background-size: cover;
 
         }*/
+        #footer-margin
+        {
+          margin-top:850px;
+        }
+        body{
+          background-color:#19194d;
+
+        }
         .container{
 
          width:420px;
@@ -167,7 +177,8 @@
 
     </style>
   </head>
-  <body bgcolor="#0C1011">
+  <body bgcolor="#000066">
+
   <div id="menu-container">
           <div id="menu">
               <a id="menu-close-btn" class="menu">
@@ -213,7 +224,7 @@
           <div class="sub-header">
               <div class="illustration"></div>
               <div class="header-content">
-                  <div class="navbar m-2">
+                  <div class="navbar m-2" style="z-index:2">
                       <div class="nav">
                         <a href="#bottom" class="contact-us">Contact Us</a>
                           <a id="menu-btn" class="menu">
@@ -225,7 +236,6 @@
                   </div>
                   </div>
                   <script src="js/script.js"></script>
-
                   <div class="container">
                     <div class="content">
                     REGISTER
@@ -237,10 +247,12 @@
                       <a href="#"><div class="register">Register</div></a>
                       </div>
                     </div>
-                <div class="img1" ><img src="images/png/register.png" width="100%"></img>
+
+                <div class="img1" style="position:absolute"><img src="images/png/register.png" width="100%"></img>
                       <div class="eventcontent"></div>
                     </div>
-                      <footer class="footer" style="margin-top:900px;overflow:scroll">
+                       <footer class="footer" id="footer-margin"> <!--style="margin-top:900px;overflow:scroll"-->
+                  <!--  <footer class="footer">-->
                         <div class="footer-box1">
 
                           <div id="bottom"><a href=""><img src="images/png/logo.png"></a></div>
@@ -274,7 +286,6 @@
                             </ul>
                         </div>
                     </footer>
-
                     <script src="js/script.js"></script>
 
                 </body>
