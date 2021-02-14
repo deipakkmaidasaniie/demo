@@ -49,8 +49,11 @@ align-items: center;
   position: absolute;
 width: 1218.24px;
 height: 464px;
-left: 186px;
-top: 154px;
+/*left: 186px;
+top: 154px;*/
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
 background-color: #0C1011;
 border: 10px solid #33ccff;
 border-image: linear-gradient(to right, #80bfff, #33ccff,#0073e6,#80bfff, #33ccff);
@@ -58,8 +61,6 @@ border-image: linear-gradient(to right, #80bfff, #33ccff,#0073e6,#80bfff, #33ccf
 border-image-slice: 1;
 display:flex;
 justify-content: center;
-
-
 }
 
   .content{
